@@ -432,13 +432,6 @@ echo -e "${LIGHTBLUE} TELEGRAM ${WHITE}:- ${LIGHTRED}@ROYALANTIBAN\e[m"
 echo -e "${RED} FUCK YOUR MOM COPY PASTER\e[m"
 echo -e "\e[1;32;4;41m TRY TO MAKE YOUR OWN, DONT SPOIL MY CREATIONS${WHITE}\e[m"
 }
-srk() {
-curl -O https://raw.githubusercontent.com/hk4crprasad/password/master/version > /dev/null 2>&1
-source version
-pwr="${version}"
-rm version
-}
-srk
 spin
 killk() {
 echo -e "
