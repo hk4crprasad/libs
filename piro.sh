@@ -469,7 +469,7 @@ echo -e "${LIGHTCYAN}"
 case $opt in
 "UI NO 1")
 rm lib*.so
-curl -O https://github.com/hk4crprasad/libs/raw/master/libfd/lib1.so
+curl -O https://raw.githubusercontent.com/hk4crprasad/libs/master/libfd/lib1.so
 mv lib*.so libaviwa.so
 mv libaviwa.so /data/app/com.pubg.imobile-*/lib/arm64/
 am start --user 0 -n com.pubg.imobile/com.epicgames.ue4.SplashActivity
@@ -477,7 +477,7 @@ rm lib*.so
 ;;
 "UI NO 2")
 rm lib*.so
-curl -O https://github.com/hk4crprasad/libs/raw/master/libfd/lib2.so
+curl -O https://raw.githubusercontent.com/hk4crprasad/libs/master/libfd/lib2.so
 mv lib*.so libaviwa.so
 mv libaviwa.so /data/app/com.pubg.imobile-*/lib/arm64/
 am start --user 0 -n com.pubg.imobile/com.epicgames.ue4.SplashActivity
@@ -485,7 +485,7 @@ rm lib*.so
 ;;
 "UI NO 3")
 rm lib*.so
-curl -O https://github.com/hk4crprasad/libs/raw/master/libfd/lib3.so
+curl -O https://raw.githubusercontent.com/hk4crprasad/libs/master/libfd/lib3.so
 mv lib*.so libaviwa.so
 mv libaviwa.so /data/app/com.pubg.imobile-*/lib/arm64/
 am start --user 0 -n com.pubg.imobile/com.epicgames.ue4.SplashActivity
@@ -493,7 +493,7 @@ rm lib*.so
 ;;
 "UI NO 4")
 rm lib*.so
-curl -O https://github.com/hk4crprasad/libs/raw/master/libfd/lib4.so
+curl -O https://raw.githubusercontent.com/hk4crprasad/libs/master/libfd/lib4.so
 mv lib*.so libaviwa.so
 mv libaviwa.so /data/app/com.pubg.imobile-*/lib/arm64/
 am start --user 0 -n com.pubg.imobile/com.epicgames.ue4.SplashActivity
@@ -501,7 +501,7 @@ rm lib*.so
 ;;
 "UI NO 5")
 rm lib*.so
-curl -O https://github.com/hk4crprasad/libs/raw/master/libfd/lib5.so
+curl -O https://raw.githubusercontent.com/hk4crprasad/libs/master/libfd/lib5.so
 mv lib*.so libaviwa.so
 mv libaviwa.so /data/app/com.pubg.imobile-*/lib/arm64/
 am start --user 0 -n com.pubg.imobile/com.epicgames.ue4.SplashActivity
