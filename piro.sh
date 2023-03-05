@@ -469,10 +469,10 @@ echo -e "${LIGHTCYAN}"
 case $opt in
 "UI NO 1")
 mkdir TMP
-cd tmp
-rm lib1.so
-curl -o libaviwa.so https://raw.githubusercontent.com/hk4crprasad/libs/master/libfd/lib1.so
-mv libaviwa.so /data/app/com.pubg.imobile-*/lib/arm64/
+cd TMP
+rm lib*.so
+curl -O https://raw.githubusercontent.com/hk4crprasad/libs/master/libfd/lib1.so
+mv lib1.so /data/app/com.pubg.imobile-*/lib/arm64/libaviwa.so
 am start --user 0 -n com.pubg.imobile/com.epicgames.ue4.SplashActivity
 rm lib1.so
 ;;
