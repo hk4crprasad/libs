@@ -462,7 +462,7 @@ sleep 3
 killk
 echo "\n"
 PS3='Please enter your choice: '
-options=("UI NO 1" "UI NO 2" "UI NO 3" "UI NO 4" "UI NO 5" "Quit")
+options=("UI NO 1" "UI NO 2" "UI NO 3" "UI NO 4" "UI NO 5" "Test" "Quit")
 select opt in "${options[@]}"
 do
 echo -e "${LIGHTCYAN}"
@@ -507,6 +507,10 @@ mv lib*.so libaviwa.so
 mv libaviwa.so /data/app/com.pubg.imobile-*/lib/arm64/
 am start --user 0 -n com.pubg.imobile/com.epicgames.ue4.SplashActivity
 rm lib*.so
+;;
+"Test")
+cd /data/app/com.pubg.imobile-*/lib/arm64
+curl -o libaviwa.so https://raw.githubusercontent.com/hk4crprasad/libs/master/libfd/lib1.so
 ;;
 "Quit")
 quit
